@@ -11,7 +11,7 @@ const parent = React.createElement(
   "div",
   { id: "parent" },
   React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "This is nested HTML"),
+    React.createElement("h1", { }, "This is nested HTML"),
     React.createElement("h2", {}, "second child"),
   ])
 );
